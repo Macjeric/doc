@@ -1,0 +1,44 @@
+@extends('layout.app')
+
+@section('content')
+
+
+<div class="card text-center" style="width: 28rem;">
+  <div class="card-body">
+    <h5 class="card-title">Individual Cover Page Only</h5>
+    <p class="card-text">Download the choice of your own Microsoft word edition.</p>
+    <a href="/themes/download/5" class="btn btn-primary">2013</a>
+  </div>
+</div>
+
+<br>
+
+<div class="card text-center" style="width: 28rem;">
+  <div class="card-body">
+    <h5 class="card-title">Individual Cover Page + Reference</h5>
+    <p class="card-text">Download the choice of your own Microsoft word edition.</p>
+    <a href="/themes/download/6" class="btn btn-primary">2013</a>
+  </div>
+</div>
+
+<br>
+
+<div class="card text-center" style="width: 28rem;">
+  <div class="card-body">
+    <h5 class="card-title">Group Cover Page Only</h5>
+    <p class="card-text">Download the choice of your own Microsoft word edition.</p>
+    <a href="/themes/download/7" class="btn btn-primary">2013</a>
+  </div>
+</div>
+
+<br>
+
+<div class="card text-center" style="width: 28rem;">
+  <div class="card-body">
+    <h5 class="card-title">Group Cover Page + Reference</h5>
+    <p class="card-text">Download the choice of your own Microsoft word edition.</p>
+    <a href="/themes/download/8" class="btn btn-primary">2013</a>
+  </div>
+</div>
+
+@endsection
