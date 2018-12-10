@@ -22,7 +22,6 @@
                   Move to Themes option, select your university and choose the right made document you prefer, 
                   then download it. 
                   Make Simple editing and fill the required fields </p>
-<p>{{ $likes }}</p>
 
 
 <br></br>
