@@ -21,7 +21,9 @@
               <p>
                   Move to Themes option, select your university and choose the right made document you prefer, 
                   then download it. 
-                  Make Simple editing and fill the required fields </p>
+                  Make Simple editing and fill the required fields. Universities are written in a short forms
+                  (UDSM, IAA, MU) you know what it is.
+               </p>
 
 
 <br></br>
