@@ -22,7 +22,7 @@ class DownloadsController extends Controller
         $like = Redis::get("likes/count");
         $likes = Redis::incr("likes/count");
 
-        return view('welcome')->with('likes', $likes);
+        return back()->with('likes', $likes);
 
     }
 
