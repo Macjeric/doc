@@ -2,7 +2,7 @@
 
 @section('content')
 
-<p align ="right"><b>Favs</b> {{ $like }} </p>
+<div  align="right"> <span class= "octicon octicon-star"></span> <img src="/octicons/build/svg/star.svg">  425500 </img></div>
 <h2 align ="center">Just Do It! </h2>
 <p>A Place were you can write down your tasks as Fast as Possible, by getting your document type
     in seconds. </p>
@@ -12,7 +12,7 @@
                 <h3>Getting Started</h3>
                     <ul>
                     <li><a href="#using">Using</a></li>
-                    <li><a href="#additions">Configuration</a></li>
+                    <li><a href="#additions">Additions</a></li>
                     
                     </ul>
                
@@ -25,6 +25,14 @@
                   you prefer, then download it. Make Simple editing and fill the required fields. Universities are written in a short forms
                   (IAA, MU) you know what it is.
                </p>
+
+            <p><a name="additions"></a></p>
+            <h3 align="center" > Additions </h3>
+              <p>
+                After You have download Microsoft Document and open it, it's views might be unstructured - you need to 
+                enable <b> Editing </b> or if that option is not available try to <b> save </b> it by your name and 
+                you will be ready to Go!
+              </p>
 
 <br></br>
 

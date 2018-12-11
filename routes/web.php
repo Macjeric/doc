@@ -30,12 +30,15 @@ Route::get('/likes/count', function () {
 });
 
 
+
 Route::get('themes', 'ThemesController@index');
 Route::get('themes/uni/mu', 'ThemesController@create');
 Route::get('themes/uni/sua', 'ThemesController@show');
 Route::get('themes/uni/udsm', 'ThemesController@store');
 Route::get('themes/uni/iaa', 'ThemesController@edit');
 Route::get('themes/uni/ifm', 'ThemesController@update');
+
+// 2013
 Route::get('themes/download/1', 'DownloadsController@index');
 Route::get('themes/download/2', 'DownloadsController@create');
 Route::get('themes/download/3', 'DownloadsController@store');
@@ -45,6 +48,24 @@ Route::get('themes/download/5', 'DownloadsController@edit');
 Route::get('themes/download/6', 'DownloadsController@update');
 Route::get('themes/download/7', 'DownloadsController@destroy');
 Route::get('themes/download/8', 'DownloadsController@iaagroupref');
+
+// 2007
+Route::get('themes/download/9', 'DownloadsController@muind07');
+Route::get('themes/download/10', 'DownloadsController@muindref07');
+Route::get('themes/download/11', 'DownloadsController@mugrp07');
+Route::get('themes/download/12', 'DownloadsController@mugrpref07');
+
+
+
+
+Route::get('themes/download/13', 'DownloadsController@ind07iaa');
+Route::get('themes/download/14', 'DownloadsController@ind07iaaref');
+Route::get('themes/download/15', 'DownloadsController@iaagrp');
+Route::get('themes/download/16', 'DownloadsController@iaagroupref07');
+
+
+
+
 
 
 

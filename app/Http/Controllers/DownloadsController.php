@@ -42,7 +42,6 @@ class DownloadsController extends Controller
         // mu downloads for individual
         return Storage::download('mu-individual.docx');
 
-
     }
 
     /**
@@ -57,7 +56,6 @@ class DownloadsController extends Controller
 
         //mu downloads for individual reference
         return Storage::download('mu-individual-ref.docx');
-        
 
     }
 
@@ -144,6 +142,80 @@ class DownloadsController extends Controller
         Redis::incr("themes/download/8");
 
         return Storage::download('iaa-group-ref.docx');
+
+    }
+
+    public function ind07iaa()
+    {
+        $downloads = Redis::get("themes/download/13");
+        Redis::incr("themes/download/13");
+        //
+        return Storage::download('individual-iaa-07.docx');
+
+    }
+    
+
+    public function ind07iaaref()
+    {
+        $downloads = Redis::get("themes/download/14");
+        Redis::incr("themes/download/14");
+        //
+        return Storage::download('iaa-ind-ref-07.docx');
+    }
+
+    public function iaagrp()
+    {
+        $downloads = Redis::get("themes/download/15");
+        Redis::incr("themes/download/15");
+        //
+        return Storage::download('iaa-group-07.docx');
+
+    }
+
+    public function iaagroupref07()
+    {
+        $downloads = Redis::get("themes/download/16");
+        Redis::incr("themes/download/16");
+        //
+        return Storage::download('iaa-group-07.docx');
+
+    }
+
+    public function muind07()
+    {
+    $downloads = Redis::get("themes/download/9");
+        Redis::incr("themes/download/9");
+
+        // mu downloads for individual
+        return Storage::download('mu-individual-07.docx');
+    }
+
+    public function muindref07()
+    {
+    $downloads = Redis::get("themes/download/10");
+        Redis::incr("themes/download/10");
+
+        // mu downloads for individual
+        return Storage::download('mu-individual-ref-07.docx');
+    }
+
+    public function mugrp07()
+    {
+        $downloads = Redis::get("themes/download/11");
+        Redis::incr("themes/download/11");
+
+        //
+        return Storage::download('mu-group-07.docx');
+
+    }
+
+    public function mugrpref07()
+    {
+        $downloads = Redis::get("themes/download/12");
+        Redis::incr("themes/download/12");
+
+        //
+        return Storage::download('mu-group-07.docx');
 
     }
 
