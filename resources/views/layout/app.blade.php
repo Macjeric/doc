@@ -39,9 +39,10 @@
         <header class ="section">
             <div class="container"> 
                 <div class ="header-top">
-                        <h1>Pages Made</h1>
+                        <h1><a href ="/">Pages Made</h1></a>
 
-                        <a href ="/login">SIGN IN </a>
+                        <!-- <a href ="/login"> SIGN IN </a> -->
+                        <!-- <p> Favs </p> -->
                     </div>
             
                 <div class ="nav">

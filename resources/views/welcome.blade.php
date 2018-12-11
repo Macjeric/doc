@@ -2,6 +2,7 @@
 
 @section('content')
 
+<p align ="right"><b>Favs</b> {{ $like }} </p>
 <h2 align ="center">Just Do It! </h2>
 <p>A Place were you can write down your tasks as Fast as Possible, by getting your document type
     in seconds. </p>
@@ -19,12 +20,11 @@
             <p><a name="using"></a></p>
               <h3 align="center" > Using </h3>
               <p>
-                  Move to Themes option, select your university and choose the right made document you prefer, 
-                  then download it. 
-                  Make Simple editing and fill the required fields. Universities are written in a short forms
-                  (UDSM, IAA, MU) you know what it is.
+                  Move to <a href="/themes">Themes </a>, select your university and choose the right <a style="color:DodgerBlue;">
+                   Microsoft document type (2007/2010/...) </a>
+                  you prefer, then download it. Make Simple editing and fill the required fields. Universities are written in a short forms
+                  (IAA, MU) you know what it is.
                </p>
-
 
 <br></br>
 

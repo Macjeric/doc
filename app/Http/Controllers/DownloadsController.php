@@ -17,14 +17,14 @@ class DownloadsController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function likes()
-    {
-        $like = Redis::get("likes/count");
-        $likes = Redis::incr("likes/count");
+    // public function likes()
+    // {
+    //     $like = Redis::get("likes/count");
+    //     $likes = Redis::incr("likes/count");
 
-        return back()->with('likes', $likes);
+    //     return view('welcome')->with('like', $like);
 
-    }
+    // }
 
 
     public function index()

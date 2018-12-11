@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Redis;
 
 // use Symfony\Component\Routing\Route;
 
@@ -15,8 +16,19 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $like = Redis::get("likes/count");
+
+    return view('welcome')->withLike($like);
+
 });
+
+Route::get('/likes/count', function () {
+
+    Redis::incr("likes/count");
+
+    return back();
+});
+
 
 Route::get('themes', 'ThemesController@index');
 Route::get('themes/uni/mu', 'ThemesController@create');
@@ -34,7 +46,7 @@ Route::get('themes/download/6', 'DownloadsController@update');
 Route::get('themes/download/7', 'DownloadsController@destroy');
 Route::get('themes/download/8', 'DownloadsController@iaagroupref');
 
-Route::get('likes/count', 'DownloadsController@likes');
+
 
 
 
