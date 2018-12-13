@@ -3,13 +3,17 @@
 @section('content')
 
 <h5> Mzumbe Goes Here! </h5>
+
+<div>
+
+<div>
 <p align ="right"><img src="/octicons/build/svg/arrow-down.svg">  </img></p>
 <div class="alert alert-success" role="alert">
   Give it a click if you like it => <a href="/likes/count" class="alert-link">Like</a>.
 </div>
 
 <div class="row">
-  <div class="col-sm-4">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Individual Cover Page Only</h5>
@@ -24,7 +28,7 @@
 <br> 
 
 <div class="row">
-  <div class="col-sm-4">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Individual Cover Page + Reference</h5>
@@ -39,7 +43,7 @@
 <br>
 
 <div class="row">
-  <div class="col-sm-4">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Group Cover Page Only</h5>
@@ -54,7 +58,7 @@
 <br> 
 
 <div class="row">
-  <div class="col-sm-4">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Group Cover Page + Reference</h5>

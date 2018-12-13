@@ -36,10 +36,9 @@
      
         </style>
     </head>
-    <body>
         <header class ="section">
             <div class="container"> 
-                <div class ="header-top">
+                <div class ="header-top" >
                         <h1><a href ="/">Pages Made</h1></a>
 
                         <!-- <a href ="/login"> SIGN IN </a> -->
@@ -53,7 +52,9 @@
             </div>
             </div>
         </header>
+        <body>
 
+<div class="middle">
         <div class ="section">
             <div class ="container">
                 <!-- <div class="front-text"> -->
@@ -66,7 +67,8 @@
 
              
             </div>
-        </div>    
+        </div>  
+</div>  
     </body>
     <!-- <footer>
                  <p align="center"> @2018 Rights </p>

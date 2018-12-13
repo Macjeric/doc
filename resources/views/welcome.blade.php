@@ -3,6 +3,7 @@
 @section('content')
 
 <div  align="right"> <span class= "octicon octicon-star"></span> <img src="/octicons/build/svg/star.svg">  {{ $like }} </img></div>
+
 <h2 align ="center">Just Do It! </h2>
 <p>A Place were you can write down your tasks as Fast as Possible, by getting your document type
     in seconds. </p>
