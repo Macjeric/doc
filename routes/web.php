@@ -29,6 +29,16 @@ Route::get('/likes/count', function () {
     return back();
 });
 
+Route::get('/one', function () {
+
+    return view('one');
+});
+
+
+Route::get('resource/uni/mu/ict/paper', 'SampleController@two' );
+Route::get('sports/new/index', 'SampleController@snew' );
+
+
 
 
 Route::get('themes', 'ThemesController@index');

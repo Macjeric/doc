@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div  align="right"> <span class= "octicon octicon-star"></span> <img src="/octicons/build/svg/star.svg">  {{ $like }} </img></div>
+<div  align="right">  <img src="/octicons/build/svg/star.svg">  {{ $like }} </img></div>
 
 <h2 align ="center">Just Do It! </h2>
 <p>A Place were you can write down your tasks as Fast as Possible, by getting your document type
@@ -14,6 +14,8 @@
                     <ul>
                     <li><a href="#using">Using</a></li>
                     <li><a href="#additions">Additions</a></li>
+                    <li><a href="#contact">Comment</a></li>
+
                     
                     </ul>
                
@@ -40,6 +42,11 @@
 <div class="alert alert-success" role="alert">
   Do you like it? Give it a click if you like <a href="/likes/count" class="alert-link">Like</a>.
 </div>
+
+ <p><a name="comment"></a></p>
+            <h3 align="center" > Your Opinion </h3>
+              <p>You can have your say through: pagesmade@gmail.com
+              </p>                
 
 <!-- <div class="float-right">Float right on all viewport sizes</div><br> -->
 

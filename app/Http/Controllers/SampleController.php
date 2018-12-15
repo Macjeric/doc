@@ -48,9 +48,15 @@ class SampleController extends Controller
 
     }
 
-    public function four()
+    public function two()
     {
-        return view('download.four');
+        return view('resource.uni.mu.ict.paper');
+    }
+
+
+    public function snew()
+    {
+        return view('sports.new.index');
     }
 
 }

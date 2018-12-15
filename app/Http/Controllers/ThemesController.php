@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redis;
 
 class ThemesController extends Controller
 {
@@ -25,7 +26,11 @@ class ThemesController extends Controller
      */
     public function create()
     {
-        //
+        //  
+        // $downloads = Redis::get("themes/download/1");
+
+    // Redis::incr("theme/download/1");
+
         return view('themes.uni.mu');
     }
 

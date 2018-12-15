@@ -11,25 +11,13 @@ body,html { height:100;}
     body{
         justify-content: center;
         align-items: center;
+        font-family: 'Ubuntu', sans-serif;
     }
     </style>
 
 
 </head>
 <body>
-
-
-<form method = "POST" action="/documents" enctype="multipart/form-data">
-@csrf
-
-<input type="file" name="document"></input>
-
-<button type="submit"> Save doc </button>
-
-</form>
-
-<a href ="https://goo.gl/Bhj9PR">View doc</a>
-
-<iframe src="https://drive.google.com/file/d/168mBZZ64a3s58qgzdiqH599UMgr8y8Yl/preview" width="640" height="480"></iframe>
+Tossys
 </body>
 </html>
