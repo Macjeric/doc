@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sports</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130660789-1"></script> 
+            <script> 
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-130660789-1');
+            </script>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    
@@ -44,13 +52,24 @@
         <a href="https://streamja.com/A1dn" class="btn btn-primary">3-1</a>
 
 
-
       </div>
     </div>
   </div>
 </div>
-
-
+ 
+ <br>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Hannover96 vs Bayern</h5>
+        <p class="card-text">Live</p>
+        <a href="https://streamja.com/1Zkv" class="btn btn-primary">1 -0 2'</a>
+        <!-- <a href="/themes/download/3" class="btn btn-primary"></a> -->
+      </div>
+    </div>
+  </div>
+</div>
 
             </div>
             </div>

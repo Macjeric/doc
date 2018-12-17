@@ -4,7 +4,7 @@
 
 <h5> IAA Goes Here!</h5>
 
-<p align ="right"><img src="/octicons/build/svg/arrow-down.svg">  </p>
+<p align ="right"><img src="/octicons/build/svg/arrow-down.svg"> {{ $downloads }} </p>
 <div class="alert alert-success" role="alert">
   Give it a click if you like it => <a href="/likes/count" class="alert-link">Like</a>.
 </div>

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Redis;
-
+// use App\Http\Controllers\DownloadsController;
 // use Symfony\Component\Routing\Route;
 
 /*
@@ -29,9 +29,11 @@ Route::get('/likes/count', function () {
     return back();
 });
 
-Route::get('/one', function () {
+Route::get('/themes/download/${id}', function ($id) {
 
-    return view('one');
+    Redis::incr("themes/downloads/{id}");
+
+    return view('themes/uni/mu');
 });
 
 

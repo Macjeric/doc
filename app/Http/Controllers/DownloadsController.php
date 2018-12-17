@@ -36,9 +36,9 @@ class DownloadsController extends Controller
         // return $file;
         // return view ('/themes/download');
 
-        $downloads = Redis::get("themes/download/1");
-        Redis::incr("themes/download/1");
-
+        // $downloads = Redis::get("themes/download/1");
+        // Redis::incr("themes/download/1");
+// return back()->withDownloads($downloads);
         // mu downloads for individual
         return Storage::download('mu-individual.docx');
 
