@@ -36,8 +36,8 @@ class DownloadsController extends Controller
         // return $file;
         // return view ('/themes/download');
 
-        // $downloads = Redis::get("themes/download/1");
-        // Redis::incr("themes/download/1");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
 // return back()->withDownloads($downloads);
         // mu downloads for individual
         return Storage::download('mu-individual.docx');
@@ -51,8 +51,8 @@ class DownloadsController extends Controller
      */
     public function create()
     {
-        $downloads = Redis::get("themes/download/2");
-        Redis::incr("themes/download/2");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
 
         //mu downloads for individual reference
         return Storage::download('mu-individual-ref.docx');
@@ -67,8 +67,8 @@ class DownloadsController extends Controller
      */
     public function store()
     {
-        $downloads = Redis::get("themes/download/3");
-        Redis::incr("themes/download/3");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
 
         //
         return Storage::download('mu-group.docx');
@@ -83,8 +83,8 @@ class DownloadsController extends Controller
      */
     public function show()
     {
-        $downloads = Redis::get("themes/download/4");
-        Redis::incr("themes/download/4");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
         //
         return Storage::download('mu-group-ref.docx');
 
@@ -98,8 +98,8 @@ class DownloadsController extends Controller
      */
     public function edit()
     {
-        $downloads = Redis::get("themes/download/5");
-        Redis::incr("themes/download/5");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
         //
         return Storage::download('individual-iaa.docx');
 
@@ -114,8 +114,8 @@ class DownloadsController extends Controller
      */
     public function update()
     {
-        $downloads = Redis::get("themes/download/6");
-        Redis::incr("themes/download/6");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
         //
         return Storage::download('iaa-ind-ref.docx');
 
@@ -129,8 +129,8 @@ class DownloadsController extends Controller
      */
     public function destroy()
     {
-        $downloads = Redis::get("themes/download/7");
-        Redis::incr("themes/download/7");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
         //
         return Storage::download('iaa-group.docx');
 
@@ -138,8 +138,8 @@ class DownloadsController extends Controller
 
     public function iaagroupref()
     {
-        $downloads = Redis::get("themes/download/8");
-        Redis::incr("themes/download/8");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
 
         return Storage::download('iaa-group-ref.docx');
 
@@ -147,8 +147,8 @@ class DownloadsController extends Controller
 
     public function ind07iaa()
     {
-        $downloads = Redis::get("themes/download/13");
-        Redis::incr("themes/download/13");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
         //
         return Storage::download('individual-iaa-07.docx');
 
@@ -157,16 +157,16 @@ class DownloadsController extends Controller
 
     public function ind07iaaref()
     {
-        $downloads = Redis::get("themes/download/14");
-        Redis::incr("themes/download/14");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
         //
         return Storage::download('iaa-ind-ref-07.docx');
     }
 
     public function iaagrp()
     {
-        $downloads = Redis::get("themes/download/15");
-        Redis::incr("themes/download/15");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
         //
         return Storage::download('iaa-group-07.docx');
 
@@ -174,8 +174,8 @@ class DownloadsController extends Controller
 
     public function iaagroupref07()
     {
-        $downloads = Redis::get("themes/download/16");
-        Redis::incr("themes/download/16");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
         //
         return Storage::download('iaa-group-07.docx');
 
@@ -183,8 +183,8 @@ class DownloadsController extends Controller
 
     public function muind07()
     {
-    $downloads = Redis::get("themes/download/9");
-        Redis::incr("themes/download/9");
+    $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
 
         // mu downloads for individual
         return Storage::download('mu-individual-07.docx');
@@ -192,8 +192,8 @@ class DownloadsController extends Controller
 
     public function muindref07()
     {
-    $downloads = Redis::get("themes/download/10");
-        Redis::incr("themes/download/10");
+    $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
 
         // mu downloads for individual
         return Storage::download('mu-individual-ref-07.docx');
@@ -201,8 +201,8 @@ class DownloadsController extends Controller
 
     public function mugrp07()
     {
-        $downloads = Redis::get("themes/download/11");
-        Redis::incr("themes/download/11");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
 
         //
         return Storage::download('mu-group-07.docx');
@@ -211,8 +211,8 @@ class DownloadsController extends Controller
 
     public function mugrpref07()
     {
-        $downloads = Redis::get("themes/download/12");
-        Redis::incr("themes/download/12");
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
 
         //
         return Storage::download('mu-group-07.docx');

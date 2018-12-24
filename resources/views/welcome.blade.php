@@ -19,7 +19,7 @@
                     
                     </ul>
                
-            <div class="front-text">            
+            <!-- <div class="front-text">             -->
             <p><a name="using"></a></p>
               <h3 align="center" > Using </h3>
               <p>
@@ -48,15 +48,7 @@
               <p>You can have your say through: pagesmade@gmail.com
               </p>                
 
-<!-- <div class="float-right">Float right on all viewport sizes</div><br> -->
 
-
-<!-- <div class="alert alert-success" role="alert">
-  <h4 class="alert-heading">Well done!</h4>
-  <p> A Modern way to write down your task at a very fast and efficient way!  .</p>
-  <hr>
-  <p class="mb-0">Whenever you need to, you can write down your tasks anywhere you want.</p>
-</div> -->
 
 
 

@@ -29,12 +29,16 @@ Route::get('/likes/count', function () {
     return back();
 });
 
-Route::get('/themes/download/${id}', function ($id) {
+// Route::get('/themes/uni/mu',  function () {
 
-    Redis::incr("themes/downloads/{id}");
+//     $downloads = Redis::get("themes/download/{id}") ; 
 
-    return view('themes/uni/mu');
-});
+
+//     return view('themes/uni/mu')->withDownloads($downloads);
+// });
+
+
+
 
 
 Route::get('resource/uni/mu/ict/paper', 'SampleController@two' );

@@ -60,19 +60,36 @@
             <div class ="container">
                 <!-- <div class="front-text"> -->
                     @yield('content')
-            <!-- </div> -->
-
-             <!-- <div> -->
-                 <!-- <img src="/images/blank-coffee-cup.jpg" width="1200px" height="700px"></img> -->
-             <!-- </div> -->
+           
 
              
             </div>
         </div>  
 </div>  
-    </body>
-    <!-- <footer>
-                 <p align="center"> @2018 Rights </p>
-                 
-             </footer> -->
+
+
+    <footer>
+        
+       <div class="wrapper">
+       <div>
+          <br>
+          <p align="center"> @2018 Rights </p>
+ </div> 
+<div class="footer-contents">
+   <div class="dtexts">
+         Make it as Simple as possible, just do your work in peace.
+
+ </div>
+
+ <div class="dtexts2">
+<h7>LEARN</h7>
+<p><a href="/#"> Nakutunuku </a></p>
+     </div>
+     </div>
+       </div>
+             </footer>
+
+
+             </body>
+
 </html>

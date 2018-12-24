@@ -2,6 +2,7 @@
 
 @section('content')
 
+
 <div class="row">
 
         <!-- <div class="col">
@@ -30,14 +31,7 @@
 
         
 </div>
-    <div class="row">
-
-
-      
-
-
-
-</div>
+   
 
 
 @endsection

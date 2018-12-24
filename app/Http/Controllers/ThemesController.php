@@ -27,8 +27,9 @@ class ThemesController extends Controller
     public function create()
     {
         //  
-        $downloads = Redis::get("themes/downloads/{id}");
+        $downloads = Redis::get("themes/download/{id}");
 
+        // Redis::incr("themes/download/{id}");
 
         return view('themes.uni.mu')->withDownloads($downloads);
     }
@@ -43,6 +44,7 @@ class ThemesController extends Controller
     {
         //
         // return request()->all();
+        
         return view('themes.uni.udsm');
     }
 
@@ -55,6 +57,8 @@ class ThemesController extends Controller
     public function show()
     {
         //
+        // $downloads = Redis::get("themes/download/{id}");
+
         return view('themes.uni.sua');
 
     }
@@ -70,7 +74,7 @@ class ThemesController extends Controller
         //
         $downloads = Redis::get("themes/download/{id}");
 
-        Redis::incr("themes/download/{id}");
+        // Redis::incr("themes/download/{id}");
 
         return view('themes.uni.iaa')->withDownloads($downloads);
 

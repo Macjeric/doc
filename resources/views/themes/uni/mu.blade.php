@@ -5,7 +5,6 @@
 
 <h5> Mzumbe Goes Here! </h5>
 
-<div>
 
 <div>
 <p align ="right"><img src="/octicons/build/svg/arrow-down.svg"> {{ $downloads }}</img></p>
@@ -72,7 +71,6 @@
 </div>
 
 <br>
-
-
+</div>
 
 @endsection

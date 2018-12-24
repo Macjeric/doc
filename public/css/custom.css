@@ -18,12 +18,12 @@ a:hover{
 }
 
 .container{
-    /* max-width: 860px;
-    margin: 0 auto; */
+    /* max-width: 860px; */
+    margin: 0 auto; 
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
 }
 
@@ -67,8 +67,8 @@ header h1{
 
 footer{
     background-color: #a25b5b;
-    margin-top: auto;
-    box-shadow: 0 3px 0 26px #a25b5b;
+    margin-top: 170px;
+   height: 244px;
 }
 
 .flex,.row
@@ -83,3 +83,52 @@ footer{
 
 
 
+.footer-contents{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.wrapper{
+    width: 80%;
+    margin:  0 auto;
+}
+.dtexts{
+   /* background: #eee; */
+   width: 18rem;
+
+}
+ 
+
+
+.dtexts2 a{
+     text-decoration: none;
+     color: #fff;
+    
+     transition: 0.5s ease;
+     
+} 
+.dtexts2 a:hover{
+    text-decoration: none;
+    color: #558ba0;
+}
+
+@media only screen and (max-width:600px){
+    .footer-contents{
+        display: block;
+    } 
+    
+    .dtexts{
+        margin-bottom: 15px;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+    }
+    .dtexts2 {
+        width:100%;
+        text-align: center;
+    }
+    .dtexts2 a{
+        background: #78b9d3;
+        padding: 0.2rem 0.5rem;
+        border-radius: 4px;
+    }
+}
