@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    
         <link rel ="stylesheet" href="/css/custom.css">
+        
 </head>
 
 <header class ="section">
@@ -39,6 +40,7 @@
  <div class="middle">
         <div class ="section">
             <div class ="container">
+<div class="video"> 
 
 {{-- <div class="row">
   <div class="col-sm-6">
@@ -72,13 +74,13 @@
 {{-- </div> --}}
 
 <h4>Premier League Match Pack – 28th December 2018</h4>
-<iframe width="560" height="315" src="//ok.ru/videoembed/1255191546470" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-<br>
+<iframe src="https://openload.co/embed/6HqSZRyXKLY/" scrolling="no" frameborder="0" width="440" height="230" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+<br></br>
 
 <h4>Premier League Preview – 28th December 2018</h4>
-<iframe width="560" height="315" src="//ok.ru/videoembed/1255261407846" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+<iframe src="https://openload.co/embed/-OhPdE4_OE8/" scrolling="no" frameborder="0" width="440" height="230" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 
-
+            </div>
             </div>
             </div>
             </div>
