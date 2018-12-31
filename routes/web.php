@@ -43,6 +43,10 @@ Route::get('/likes/count', function () {
 
 Route::get('resource/uni/mu/ict/paper', 'SampleController@two' );
 Route::get('sports/new/index', 'SampleController@snew' );
+Route::get('sports/new/manutd', 'SampleController@manutd' );
+Route::get('sports/new/epl', 'SampleController@epl' );
+
+
 
 
 

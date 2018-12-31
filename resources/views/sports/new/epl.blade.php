@@ -46,41 +46,6 @@
         <div class ="section">
             <div class ="container">
 
-{{-- <div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Mancity 3 - 1 Everton</h5>
-        <p class="card-text">Double for Gabriel J, Sterling and C Lewin</p>
-        <a href="https://streamja.com/lEl4" class="btn btn-primary">1-0</a>
-        <a href="https://streamja.com/1Z9d" class="btn btn-primary">2-0</a>
-        <a href="https://streamja.com/1Z9d" class="btn btn-primary">2-1</a>
-        <a href="https://streamja.com/A1dn" class="btn btn-primary">3-1</a>
-
-
-      </div>
-    </div>
-  </div>
-</div>
- 
- <br>
-<div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Hannover96 vs Bayern</h5>
-        <p class="card-text">Live</p>
-        <a href="https://streamja.com/1Zkv" class="btn btn-primary">1 -0 2'</a>
-        <!-- <a href="/themes/download/3" class="btn btn-primary"></a> -->
-      </div>
-    </div>
-  </div> --}}
-{{-- </div> --}}
-
-<h4>Man Utd 4-1 Bournemouth</h4>
-<iframe class="video" width='580' height='300' src='https://player.matchat.online/embed/2tI1grEh0B?autoplay=1&htmlplayer=1' style='border:none;' allowfullscreen></iframe>
-<br></br>
-
 <h4>BBC Match of the Day 2 – Week 20</h4>
 <iframe class="video"  src="https://openload.co/embed/6HqSZRyXKLY/" scrolling="no" frameborder="0" width="580" height="300" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 <br></br>
@@ -92,6 +57,8 @@
 
 <h4>Premier League Preview – 28th December 2018</h4>
 <iframe class="video" src="https://openload.co/embed/-OhPdE4_OE8/" scrolling="no" frameborder="0" width="580" height="300" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+
+
 
             </div>
             </div>

@@ -59,4 +59,15 @@ class SampleController extends Controller
         return view('sports.new.index');
     }
 
+
+    public function manutd()
+    {
+        return view('sports.new.manutd');
+    }
+
+
+    public function epl()
+    {
+        return view('sports.new.epl');
+    }
 }
