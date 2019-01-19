@@ -59,7 +59,7 @@ Route::get('themes/uni/iaa', 'ThemesController@edit');
 Route::get('themes/uni/ifm', 'ThemesController@update');
 
 // 2013
-Route::get('themes/download/1', 'DownloadsController@index');
+Route::get('themes/{id}/download', 'DownloadsController@index');
 Route::get('themes/download/2', 'DownloadsController@create');
 Route::get('themes/download/3', 'DownloadsController@store');
 Route::get('themes/download/4', 'DownloadsController@show');

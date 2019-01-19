@@ -71,7 +71,7 @@
        <div class="wrapper">
        <div>
           <br>
-          <p align="center"> @2018 Rights </p>
+          <p align="center"> @2018-2019 Rights </p>
  </div> 
 <div class="footer-contents">
    <div class="dtexts">

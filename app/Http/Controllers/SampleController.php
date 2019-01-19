@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
 use App\Info;
+use Illuminate\Pagination\Paginator;
 
 // use Illuminate\Support\Facades\Request;
 
