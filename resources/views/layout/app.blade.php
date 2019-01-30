@@ -22,7 +22,7 @@
         <link rel ="stylesheet" href="/css/custom.css">
         <!-- <link rel ="stylesheet" href="/css/body.css"> -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon(asset('favicon.png')) }}">
+        <link rel="icon"  sizes="32x32" href="{{ favicon(asset('favicon.ico')) }}">
         
         <!-- <link rel="stylesheet" href="node_modules/primer-css/build/build.css">
         <link rel="stylesheet" href="node_modules/octicons/build/octicons.css"> -->
