@@ -7,7 +7,9 @@
 <p align ="right"><img src="/octicons/build/svg/arrow-down.svg"> {{ $downloads }} </p>
 <div class="alert alert-success" role="alert">
   Give it a click if you like it => <a href="/likes/count" class="alert-link">Like</a>.
-</div>
+</div> 
+
+<button class="button btn btn-success btn-block" data-sharer="whatsapp" data-title="Download your cover pages on the fly:" data-url="https://pagesmade.com/uni/iaa">Share on Whatsapp</button>
 
 <div class="row">
   <div class="col-sm-6">

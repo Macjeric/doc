@@ -4,11 +4,12 @@
 
 <div  align="right">  <img src="/octicons/build/svg/star.svg">  {{ $like }} </img></div>
 
-<h2 align ="center">Just Do It! </h2>
+<h2 align ="center">Cover Pages in Secs </h2>
 <p>A Place were you can write down your tasks as Fast as Possible, by getting your document type
     in seconds. </p>
 
-                
+                <button class="button btn btn-success btn-block" data-sharer="whatsapp" data-title="Download your cover pages on the fly:" data-url="https://pagesmade.com">Share on Whatsapp</button> <br>
+
 
                 <h3>Getting Started</h3>
                     <ul>
