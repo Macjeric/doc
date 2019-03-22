@@ -12,7 +12,7 @@
   Give it a click if you like it => <a href="/likes/count" class="alert-link">Like</a>.
 </div>
 
-<button class="button btn btn-success btn-block" data-sharer="whatsapp" data-title="Download your cover pages on the fly:" data-url="https://pagesmade.com/uni/mu">Share on Whatsapp</button>
+<button class="button btn btn-success btn-block" data-sharer="whatsapp" data-title="Download your cover pages on the fly:" data-url="https://pagesmade.com/uni/mu">Share on Whatsapp</button><br/>
 
 <div class="row">
   <div class="col-sm-6">
@@ -27,7 +27,7 @@
   </div>
 </div>
 
-<br> 
+<br /> 
 
 <div class="row">
   <div class="col-sm-6">
@@ -42,7 +42,7 @@
   </div>
 </div>
 
-<br>
+<br />
 
 <div class="row">
   <div class="col-sm-6">
@@ -57,7 +57,7 @@
   </div>
 </div>
 
-<br> 
+<br /> 
 
 <div class="row">
   <div class="col-sm-6">
@@ -72,7 +72,7 @@
   </div>
 </div>
 
-<br>
+<br />
 </div>
 
 @endsection

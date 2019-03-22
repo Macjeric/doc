@@ -19,8 +19,8 @@
         <title>Pages Made</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-        {{-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> --}}
+        {{-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> --}}
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link rel ="stylesheet" href="/css/custom.css">
         <link rel ="stylesheet" href="/css/scustom.css">
         <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
@@ -42,7 +42,16 @@
 
         <!-- Styles -->
         <style>
-     
+        body {
+                font-family: 'Ubuntu', sans-serif;
+                /*font-weight: 570;*/
+
+            }
+
+        html, body {
+                background-color: #E8E6E1;
+            }
+
         </style>
     </head>
         <header class ="section">
@@ -66,7 +75,6 @@
 <div class="middle">
         <div class ="section">
             <div class ="container">
-                <!-- <div class="front-text"> -->
                     @yield('content')
            
 
