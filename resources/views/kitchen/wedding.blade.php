@@ -13,7 +13,7 @@
 				{{-- <a class="kit-pill" href="/kitchen/birthday">Birthday</a> --}}
 				<h4 style="padding-left: 30px; padding-top: 20px;"> Create Order </h4> <hr>
 				{{-- <a href="birthday"><img src="/images/bd.jpg" class="round" width="110" height="100"></img></a> --}}
-			<form method="POST" action="/">
+			<form method="POST" action="/kitchen/graduation">
 			    @csrf
 
 			      <div class="form-group ">
