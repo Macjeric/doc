@@ -18,11 +18,12 @@
 
         <title>Pages Made</title>
 
-        <!-- Fonts -->
         {{-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> --}}
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        {{-- <link rel="stylesheet" href="/fonts/proxima-n-regular.css"> --}}
         <link rel ="stylesheet" href="/css/custom.css">
         <link rel ="stylesheet" href="/css/scustom.css">
+        <link rel ="stylesheet" href="/css/kitchen.css">
         <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
 
         
@@ -45,7 +46,9 @@
         body {
                 font-family: 'Ubuntu', sans-serif;
                 /*font-weight: 570;*/
-
+                /*font-family: 'ProximaNova-Regular';*/
+                /*font-family: 'CamphorPro-Regular';*/
+                /*font-family: 'CamphorPro-Medium'*/
             }
 
         html, body {
@@ -75,6 +78,14 @@
 <div class="middle">
         <div class ="section">
             <div class ="container">
+                 @if($flash = session('message'))
+        <div class ="alert alert-success" role="alert">
+            {{$flash}}
+        </div>
+        @endif
+
+
+            @include('inc.messages')
                     @yield('content')
            
 

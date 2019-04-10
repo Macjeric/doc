@@ -29,6 +29,21 @@ Route::get('/likes/count', function () {
     return back();
 });
 
+
+// Route::get('/kitchen/graduation', function () {
+//     $tickets = Redis::get("orders/ticket");
+
+//     return view('/kitchen/graduation')->withTickets($tickets);
+
+// });
+
+
+// Route::get('/orders/ticket', function () {
+//     Redis::incr("orders/ticket");
+
+//     return back();
+
+// });
 // Route::get('/themes/uni/mu',  function () {
 
 //     $downloads = Redis::get("themes/download/{id}") ; 
@@ -36,6 +51,16 @@ Route::get('/likes/count', function () {
 
 //     return view('themes/uni/mu')->withDownloads($downloads);
 // });
+Route::get('kitchen', 'KitchensController@index');
+Route::get('kitchen/birthday', 'KitchensController@create');
+Route::get('kitchen/graduation', 'KitchensController@graduation');
+Route::get('kitchen/wedding', 'KitchensController@wedding');
+Route::post('kitchen/graduation', 'KitchensController@store');
+
+// Route::resource('kitchen', 'KitchensController@store');
+
+
+
 
 
 

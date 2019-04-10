@@ -1,0 +1,110 @@
+.kit-text{
+	/*color:#DE911D;*/
+}
+
+.kit-box{
+	display: flex;
+	justify-content: space-between;
+}
+
+.kit-card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0, .12), 0 2px 4px 0 rgba(0,0,0, 0.08);
+	background-color: #fff;
+	width: 455px;
+	height: 238px;
+	display: flex;
+	/*margin-top: 250px;*/
+}
+
+.round{
+	border-radius: 50%;
+}
+
+.card-left{
+	margin-right: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	color: white;
+}
+
+.card-bd{
+	background-image: linear-gradient(to bottom, #21c8f6,#637bff); 
+
+}
+
+.card-graduation{
+	background-image: linear-gradient(to bottom, #f19a1a,#ffc73c); 
+
+}
+
+.card-wedding{
+	background-image: linear-gradient(to bottom, #8b60ed,#b372bd); 
+
+}
+
+.card-right{
+	color: #888;
+}
+
+.card-left, .card-right{
+	padding: 20px;
+}
+
+.card-title > a {
+	color: white;
+	text-decoration: none;
+}
+
+.kit-pill{
+	background: rgba(0,0,0, 0.1);
+	border-radius: 16px;
+}
+
+.ord-pill{
+	background: #21c8f6;
+	border-radius: 26px;
+	padding: 7px;
+
+}
+
+.ord-pill-gd{
+	text-decoration: none;
+	background: #f19a1a;
+}
+
+.ord-pill-wd{
+	text-decoration: none;
+	background: #b372bd;
+}
+
+
+
+.ord-card{
+	box-shadow: 0 4px 8px 4px rgba(0,0,0, .12), 0 2px 4px 4px rgba(0,0,0, 0.08);
+	/*width: 755px;
+	height: 438px;*/
+	background-color: #fff;
+	display: flex;
+	margin-top: 50px;
+}
+
+.ord-box{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ord-cardleft{
+	width:780px;
+	padding-left: 30px;
+}
+
+@media only screen and (max-width:600px){
+	.kit-box{
+        display: block;
+		}
+	.kit-card{
+		box-sizing: inherit;
+	}
+    } 

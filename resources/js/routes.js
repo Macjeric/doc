@@ -12,9 +12,9 @@ export default {
 		// 	component:iaa
 		// },
 
-		{
-			path: '/themes',
-			component:themes
-		},
+		// {
+		// 	path: '/themes',
+		// 	component:themes
+		// },
 	]
 };
