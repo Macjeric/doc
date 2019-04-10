@@ -7,9 +7,11 @@
 
   <p>So do you need a cake for your birthday or Whatsoever? Check Out <a href="/kitchen">Jo's Kitchen</a> for cool cake.</p>
     
-    <div class="mob-kit">
-        <a href="/kitchen"><img src="/images/jos-kit.svg" width="380" height="295" align="left"></img></a>
     </div>
+        <div>
+            <a href="/kitchen"><img src="/images/jos-kit.svg" width="300" height="200" align="left"></img></a>
+        </div>
+               
 
         <p align ="right"><img src="/octicons/build/svg/arrow-down.svg"> {{ $downloads }} </img></p>
         <div class="alert alert-success" role="alert">

@@ -107,8 +107,8 @@
 		}
 
 	.kit-card{
-		width: 335px;
-		height: 330px;
+		width: 275px;
+		height: 257px;
 	}
 
 	.ord-card{
@@ -135,5 +135,21 @@
     	height: 200px;*/
     }
 
+	.mob-img{
+		width: 75px;
+		height: 67px;
+	}
+
+	.card-left, .card-right{
+	padding: 10px;
+}
+
+.mob-pill{
+	margin-top: 5px;
+}
+
+.mob-tex{
+	font-size: 14px;
+}
 
 }

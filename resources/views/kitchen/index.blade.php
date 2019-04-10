@@ -31,7 +31,7 @@
       				  ?>
 				</small>
 				
-					<img src="/images/cake00.jpg" width="300" height="205" style="margin-bottom: 30px;"></img>
+					<img src="/images/cake00.jpg" width="240" height="200" style="margin-bottom: 30px;"></img>
 				
 			</div>
 	</div>
@@ -48,7 +48,7 @@
 			<div class="card-left card-bd">
 				<a class="kit-pill" href="/kitchen/birthday">Birthday</a>
 
-				<a href="birthday"><img src="/images/bd.jpg" class="round" width="110" height="100"></img></a>
+				<a href="birthday"><img src="/images/bd.jpg" class="round mob-img" width="110" height="100" ></img></a>
 
 				<p>birthday party</p>
 			</div>
@@ -59,7 +59,7 @@
 				<h4>
 					<a class="card-title" href="/kitchen/birthday">Birthday Cake</a>
 				</h4>
-				<p>
+				<p class="mob-tex">
 					“Sending you smiles for every moment of your special day…Have a wonderful time and a very happy birthday!”
 				</p>
 				
@@ -70,14 +70,14 @@
 			</div>
 
 		</div>
-
+<br></br>
 {{-- Graduation --}}
-		<div class="kit-card" style="margin-top: 25px;">
+		<div class="kit-card" >
 			{{-- left --}}
 			<div class="card-left card-graduation">
 				<a class="kit-pill" href="/kitchen/graduation">Graduation</a>
 
-				<a href="/kitchen/graduation"><img src="/images/grad-cap.jpg" class="round" width="110" height="100"></img></a>
+				<a href="/kitchen/graduation"><img src="/images/grad-cap.jpg" class="round mob-img" width="110" height="100"></img></a>
 
 				<p>Graduation</p>
 			</div>
@@ -88,11 +88,11 @@
 				<h4>
 					<a class="card-title" href="/kitchen/graduation">Graduation Cake</a>
 				</h4>
-				<p>
+				<p class="mob-tex">
 					“Success is the ability to go from one failure to another with no loss of enthusiasm” – Winston Churchill.
 				</p>
 
-				<div style="margin-top: 28px;">
+				<div class="mob-pill" style="margin-top: 28px;">
 					<a class=" ord-pill ord-pill-gd" href="/kitchen/graduation">Order Now
 				
 				</a></div>
@@ -100,15 +100,15 @@
 			</div>
 
 		</div>
-
+<br></br>
 
 		{{-- Wedding --}}
-		<div class="kit-card" style="margin-top: 25px;">
+		<div class="kit-card" >
 			{{-- left --}}
 			<div class="card-left card-wedding">
 				<a class="kit-pill" href="/kitchen/wedding">Wedding</a>
 
-				<a href="/kitchen/wedding"><img src="/images/wedd.jpg" class="round" width="110" height="100"></img></a>
+				<a href="/kitchen/wedding"><img src="/images/wedd.jpg" class="round mob-img" width="110" height="100"></img></a>
 
 				<p>Wedding</p>
 			</div>
@@ -119,11 +119,11 @@
 				<h4>
 					<a class="card-title" href="/kitchen/wedding">Wedding Cake</a>
 				</h4>
-				<p>
+				<p class="mob-tex">
 					“To be fully seen by somebody, then, and be loved anyhow–this is a human offering that can border on miraculous.”
 				</p>
 
-				<div style="margin-top: 28px;">
+				<div class="mob-pill" style="margin-top: 28px;">
 					<a class=" ord-pill ord-pill-wd" href="/kitchen/wedding">Order Now
 				
 				</a></div>
