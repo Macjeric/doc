@@ -46,6 +46,7 @@
 
 .card-right{
 	color: #888;
+	/*padding-right: 50px;*/
 }
 
 .card-left, .card-right{
@@ -104,7 +105,35 @@
 	.kit-box{
         display: block;
 		}
+
 	.kit-card{
-		box-sizing: inherit;
+		width: 385px;
+		height: 278px;
 	}
+
+	.ord-card{
+		display: block;
+	}
+
+	.ord-cardleft{
+	width:300px;
+	padding-left: 20px;
+}
+
+.card-righta{
+	padding-left: 20px;
+}
+
+.card-left{
+	margin-right: 5px;
+
     } 
+
+    .mob-kit{
+    	/*display: block;*/
+    	/*width: 280px;
+    	height: 200px;*/
+    }
+
+
+}

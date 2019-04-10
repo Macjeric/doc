@@ -65,7 +65,7 @@
 
 
 						{{-- right --}}
-						<div style="margin-top: 88px; padding-right: 30px;">
+						<div class="card-righta" style="margin-top: 88px; padding-right: 30px;">
 							<h4>
 								<a class="card-title">Birthday Cake</a>
 							</h4>
