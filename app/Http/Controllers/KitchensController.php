@@ -69,7 +69,7 @@ class KitchensController extends Controller
         $order->choice = request('choice');
 
 
-        Mail::to('mack.jeric8@gmail.com')->send(
+        Mail::to(['mack.jeric8@gmail.com', 'janemariana.mack@gmail.com'])->send(
             new CakeOrdered($order)
         );
 

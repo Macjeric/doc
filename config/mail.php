@@ -57,7 +57,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'pagesmade@gmail.com'),
-        'name' => env('MAIL_FROM_NAME', 'PagesMade Web Service'),
+        'name' => env('MAIL_FROM_NAME', 'PagesMade Web Services'),
     ],
 
     /*

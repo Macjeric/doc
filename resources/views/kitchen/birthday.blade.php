@@ -34,7 +34,7 @@
 					                <label for="choice" class="col-sm-4 col-form-label">Cake type</label>
 					            <div class="col-sm-12">
 					              <select class="form-control col-sm-7" name ="choice">
-                        				<option value="Graduation-Cake" >Birthday-Cake</option>
+                        				<option value="Birthday-Cake" >Birthday-Cake</option>
                         			</select>
                         		</div>
                         	</div>

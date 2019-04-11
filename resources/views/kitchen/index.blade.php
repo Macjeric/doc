@@ -39,7 +39,7 @@
 	<div style="margin-bottom: 100px;">
 			<button class="button btn btn-success btn-block" data-sharer="whatsapp" data-title="Order your cake on the fly:" data-url="https://pagesmade.com/kitchen">Share on Whatsapp</button> <br>
 	
-			<a href="/#" class=" btn btn-danger btn-block" >Instagram</a>
+			<a href="https://instagram.com/jos.kitchen_/?hl=en" class=" btn btn-danger btn-block" >Instagram</a>
 	</div>
 
 {{-- Birthday --}}
@@ -48,7 +48,7 @@
 			<div class="card-left card-bd">
 				<a class="kit-pill" href="/kitchen/birthday">Birthday</a>
 
-				<a href="birthday"><img src="/images/bd.jpg" class="round mob-img" width="110" height="100" ></img></a>
+				<a href="/kitchen/birthday"><img src="/images/bd.jpg" class="round mob-img" width="110" height="100" ></img></a>
 
 				<p>birthday party</p>
 			</div>
