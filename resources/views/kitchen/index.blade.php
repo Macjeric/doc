@@ -43,7 +43,7 @@
 	</div>
 
 {{-- Birthday --}}
-		<div class="kit-card">
+		<div class="kit-card" style="margin-bottom: 30px;">
 			{{-- left --}}
 			<div class="card-left card-bd">
 				<a class="kit-pill" href="/kitchen/birthday">Birthday</a>
@@ -70,9 +70,9 @@
 			</div>
 
 		</div>
-<br></br>
+
 {{-- Graduation --}}
-		<div class="kit-card" >
+		<div class="kit-card" style="margin-bottom: 30px;">
 			{{-- left --}}
 			<div class="card-left card-graduation">
 				<a class="kit-pill" href="/kitchen/graduation">Graduation</a>
@@ -100,7 +100,6 @@
 			</div>
 
 		</div>
-<br></br>
 
 		{{-- Wedding --}}
 		<div class="kit-card" >
