@@ -17,26 +17,33 @@
 
 
         <title>Pages Made | Cover Pages and Documents</title>
-
-        
-       
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
-	<link rel ="stylesheet" href="/css/custom.css">
+      
+        {{-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> --}}
+         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+        {{-- <link rel="stylesheet" href="/fonts/Camphor-W01-Regular.ttf"> --}}
+        <link rel ="stylesheet" href="/css/custom.css">
         <link rel ="stylesheet" href="/css/scustom.css">
         <link rel ="stylesheet" href="/css/kitchen.css">
         <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+  
 
-        
-       
+         <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon(asset('favicon.png')) }}"> 
+
 
 
         <!-- <link rel ="stylesheet" href="/css/body.css"> -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        {{-- <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon(asset('favicon.png')) }}"> --}}
-       
+
+        {{-- <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon(asset('favicon.png')) }}"> --}}  
    
        
   
+      {{-- <link rel="icon" type="image/ico" sizes="32x32" href="{{ favicon(asset('favicon.ico')) }}"> --}}
+        {{-- <link href="//db.onlinewebfonts.com/c/22f912b4b10a938d5f28b7fe79ed7466?family=Camphor+W01+Regular" rel="stylesheet" type="text/css"/> --}}
+        
+         
+        {{-- <link rel="stylesheet" href="node_modules/octicons/build/octicons.css">  --}}
+        <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
 
         <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
@@ -44,9 +51,10 @@
         <!-- Styles -->
         <style>
         body {
-               font-family: 'Ubuntu', sans-serif;
-                }
+                font-family: 'Ubuntu', sans-serif;
+            }
 
+   
         html, body {
                 background-color: #E8E6E1;
             }
