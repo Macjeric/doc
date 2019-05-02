@@ -27,7 +27,7 @@
         <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
 
         
-        {{-- <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon(asset('favicon.png')) }}"> --}}
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon(asset('favicon.png')) }}">
 
 
         <!-- <link rel ="stylesheet" href="/css/body.css"> -->
@@ -41,9 +41,11 @@
                 }
                 
 </style>
-         
+        
+      
         {{-- <link rel="stylesheet" href="node_modules/octicons/build/octicons.css">  --}}
         <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
 
         <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
 
@@ -52,9 +54,6 @@
         body {
                 font-family: 'Camphor W01 Regular';
             }
-
-
-   
 
         html, body {
                 background-color: #E8E6E1;
