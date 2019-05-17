@@ -29,6 +29,9 @@ Route::get('/likes/count', function () {
     return back();
 });
 
+Route::get('one', function () {
+    return redirect('https://test.pagesmade.com');
+});
 
 // Route::get('/kitchen/graduation', function () {
 //     $tickets = Redis::get("orders/ticket");
@@ -132,3 +135,7 @@ Route::post('/documents', function () {
 
     return back();
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
