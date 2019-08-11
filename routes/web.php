@@ -109,9 +109,16 @@ Route::get('themes/download/14', 'DownloadsController@ind07iaaref');
 Route::get('themes/download/15', 'DownloadsController@iaagrp');
 Route::get('themes/download/16', 'DownloadsController@iaagroupref07');
 
+// 2019
+Route::get('themes/download/17', 'DownloadsController@mu17');
+Route::get('themes/download/18', 'DownloadsController@mu18');
+Route::get('themes/download/19', 'DownloadsController@mu19');
+Route::get('themes/download/20', 'DownloadsController@mu20');
 
-
-
+Route::get('themes/download/21', 'DownloadsController@iaa21');
+Route::get('themes/download/22', 'DownloadsController@iaa22');
+Route::get('themes/download/23', 'DownloadsController@iaa23');
+Route::get('themes/download/24', 'DownloadsController@iaa24');
 
 
 

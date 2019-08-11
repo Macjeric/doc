@@ -27,7 +27,7 @@
         <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
   	
 
-	{{-- <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon(asset('favicon.png')) }}"> --}}  
+	 <!-- <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon(asset('favicon.png')) }}">    -->
 
 
 

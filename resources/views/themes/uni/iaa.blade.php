@@ -28,6 +28,8 @@
                             <p class="card-text">Download the choice of your own Microsoft word edition.</p>
                             <a href="/themes/download/13" class="btn btn-primary">2007</a>
                             <a href="/themes/download/5" class="btn btn-primary">2013</a>
+                            <a href="/themes/download/21" class="btn btn-primary">2019</a>
+
                           </div>
                         </div>
                       </div>
@@ -43,6 +45,8 @@
                             <p class="card-text">Download the choice of your own Microsoft word edition.</p>
                             <a href="/themes/download/14" class="btn btn-primary">2007</a>
                             <a href="/themes/download/6" class="btn btn-primary">2013</a>
+                            <a href="/themes/download/22" class="btn btn-primary">2019</a>
+
                           </div>
                         </div>
                       </div>
@@ -58,6 +62,8 @@
                             <p class="card-text">Download the choice of your own Microsoft word edition.</p>
                             <a href="/themes/download/15" class="btn btn-primary">2007</a>
                             <a href="/themes/download/7" class="btn btn-primary">2013</a>
+                            <a href="/themes/download/23" class="btn btn-primary">2019</a>
+
                           </div>
                         </div>
                       </div>
@@ -73,6 +79,8 @@
                             <p class="card-text">Download the choice of your own Microsoft word edition.</p>
                             <a href="/themes/download/16" class="btn btn-primary">2007</a>
                             <a href="/themes/download/8" class="btn btn-primary">2013</a>
+                            <a href="/themes/download/24" class="btn btn-primary">2019</a>
+
                           </div>
                         </div>
                       </div>

@@ -219,5 +219,75 @@ class DownloadsController extends Controller
 
     }
 
+    public function mu17() 
+    {
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
+
+        return Storage::download('mu-individual-19.docx');
+    }
+    
+
+ public function mu18() 
+    {
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
+
+        return Storage::download('mu-individual-ref-19.docx');
+    }
+
+    public function mu19() 
+    {
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
+
+        return Storage::download('mu-group-19.docx');
+    }
+
+
+    public function mu20() 
+    {
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
+
+        return Storage::download('mu-group-ref-19.docx');
+    }
+
+
+     public function iaa21() 
+    {
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
+
+        return Storage::download('individual-iaa-19.docx');
+    }
+    
+
+ public function iaa22() 
+    {
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
+
+        return Storage::download('iaa-ind-ref-19.docx');
+    }
+
+    public function iaa23() 
+    {
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
+
+        return Storage::download('iaa-group-19.docx');
+    }
+
+
+    public function iaa24() 
+    {
+        $downloads = Redis::get("themes/download/{id}");
+        Redis::incr("themes/download/{id}");
+
+        return Storage::download('iaa-group-ref-19.docx');
+    }
+
+
 
 }
